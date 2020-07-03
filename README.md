@@ -1,6 +1,6 @@
 # Data Scientist Capstone Project - Starbucks - Udacity Data Scientist Naodegree Program
 
-# Starbucks Capstone project
+## Starbucks Capstone project
 Udacity Data Scientist Nanodegree Capstone Challenge
 
 ### Table of Contents
