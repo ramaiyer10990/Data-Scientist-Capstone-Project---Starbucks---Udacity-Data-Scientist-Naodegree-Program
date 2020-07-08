@@ -74,5 +74,5 @@ Using the Machine learning model, we build and evaluated our recommendation engi
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Starbucks for the dataset.
-Udacity for the highly intense, innovative and curative project.
+- Starbucks for the dataset.
+- Udacity for the highly intense, innovative and curative project.
