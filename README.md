@@ -63,11 +63,18 @@ Here is the schema and explanation of each variable in the files:
 
 The main findings of the code can be found at the post available [here]().
 
-Based on the transcript records, we build an user-item-matrix that represents how users responded to the offers they received. We then split the records into the training set and the test set and trained our SVD algorithm to predict how a user responses to a particular offer. We achieved the lowest mean square error around 0.003823 with 15 latent features with the training set and around 0.009175 with 10 latent features with the testing set. After that, we created a recommendation engine that recommends Starbucks which offer should be sent to a particular user.
+After performing exploratory data analysis, we found out which demographic group shows significance in the data.
+2017 is the year with the highest number of memberships in all three gender categories and 2013 have had the lowest number of memberships. Males have highest memberships in the month of January and August, Females have highest memberships in December and Other gender have highest memberships in October. Males have lowest memberships in February and June, Females have lowest memberships in February and Other genders have lowest memberships in January, March, July and November. As for days, Males have had the highest number of memberships on Saturdays and lowest on Fridays, Females had the highest number of memberships on Sunday and Tuesdays, lowest on Saturdays and Wednesdays, Other gender category had the highest memberships on Thursdays and lowest on Saturdays.
+Considering Males and Females, we don't see much difference with memberships as per day but with Other gender, we can observe a significant difference with membership on certain days.
 
-In the later section, we found out which demographic groups respond best to which offer type. Female respond much better than men, in both BOGO and discount. Men react slightly better to discount than BOGO. We also found that it is better to promote the offer via social media. Among the ten offers, sending buy 10 dollars get 2 dollars off within 10 days offer via email, web, mobile and social makes Starbucks gain more. It is the best offer so far!
+Based on the data visualizations, we built a Random Forest Classifier model that predicts whether a member of a certain demographic completes a transaction using all three event types i.e. offer received, offer viewed and offer completed.
+The feature importances of the applied Random Forest Classifier model depicts the significance of every feature depicted: When a member completes a 'Bogo' transaction. In this particular case, Income has the highest importance where as web has the lowest importance and mobile and e-mail do not have importance.
+We achieved a model that predicts the accuracy in predicting the completion of a ‘Bogo’ deal to be 67.52 % where as for non-completion to be 62.04%. The model incorrectly predicted completed transactions to be 37.96% and for not completed transactions to be 32.48%. Furthermore, the model also predicted the accuracy in completion of a ‘Discount’ deal which is 73.84 % where as for non-completion, it is 67.23%. The model incorrectly predicted completed transactions to be 26.16% and for not completed transactions to be 32.77%
+Using the Machine learning model, we build and evaluated our recommendation engine that recommends Starbucks which offers are being used by a particular customer/user.
+
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stakbucks for the data.
+Must give credit to Starbucks for the dataset.
+Udacity for the highly intense, innovative and curative project.
