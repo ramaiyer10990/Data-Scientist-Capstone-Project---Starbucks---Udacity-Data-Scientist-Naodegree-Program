@@ -20,7 +20,7 @@ There should be no necessary libraries to run the model code here beyond the Ana
 The dataset for this project is provided from the Data Scientist Nanodegree program through Udacity that creates the data simulating how people arrive on a decision to make purchases and by what factors these decisions are influenced by promotional offers. Our goal here is to provide a recommendation engine that would recommend Starbucks with an offer sent to a particular customer of a certain category.
 
 We are interested to answer the following two questions:
-1. Which offer should be sent to a particular customer to let the customer buy more?
+1. Which offer should be sent to a particular customer for them to complete a transaction?
 2. Which demographic groups would respond best to a certain offer type?
 
 
