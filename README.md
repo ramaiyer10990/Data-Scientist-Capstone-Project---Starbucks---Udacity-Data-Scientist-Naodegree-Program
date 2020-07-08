@@ -61,8 +61,6 @@ Here is the schema and explanation of each variable in the files:
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here]().
-
 After performing exploratory data analysis, we found out which demographic group shows significance in the data.
 2017 is the year with the highest number of memberships in all three gender categories and 2013 have had the lowest number of memberships. Males have highest memberships in the month of January and August, Females have highest memberships in December and Other gender have highest memberships in October. Males have lowest memberships in February and June, Females have lowest memberships in February and Other genders have lowest memberships in January, March, July and November. As for days, Males have had the highest number of memberships on Saturdays and lowest on Fridays, Females had the highest number of memberships on Sunday and Tuesdays, lowest on Saturdays and Wednesdays, Other gender category had the highest memberships on Thursdays and lowest on Saturdays.
 Considering Males and Females, we don't see much difference with memberships as per day but with Other gender, we can observe a significant difference with membership on certain days.
